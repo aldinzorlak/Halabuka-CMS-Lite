@@ -1,0 +1,73 @@
+body {
+	background:	#653C65;
+}
+
+form {
+	position: fixed;
+	background: #f0f0f0;
+	text-align: center;
+	width: 400px;
+	height: 300px;
+	top:20%;
+	left: 30%;
+	border-radius: 6px;
+}
+
+.slika {
+	background: transparent;
+	margin-top: 20px; 
+	height: 50px; 
+	width: 200px
+}
+
+input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input[type=text]:hover, input[type=password]:hover {
+	border-color: #653C65;
+}
+
+input[type=text] {
+	width: 90%;
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input[type=password]:focus, input[type=text]:focus {
+	border-color: #653C65;
+}
+
+.btn {
+	width: 100px;
+	height: 50px;
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	border-style: none;
+	border-radius: px;
+	background:	#653C65;
+}
+
+.btn:hover {
+	background-color: #8c698b;
+	cursor: pointer;
+}
+
+small {
+	color: white;
+	text-align: center;
+}

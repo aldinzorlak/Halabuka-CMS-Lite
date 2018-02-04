@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Halabuka Admin Panel</title>
+	<link rel="stylesheet" type="text/css" href="assets/style/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+
+	<script type="text/javascript">
+			/* Set the width of the side navigation to 250px */
+		function openNav() {
+		    document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		/* Set the width of the side navigation to 0 */
+		function closeNav() {
+		    document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+</head>
+<body>
+	<div class="header">
+		<img src="gear-icon.png" id="gear-icon" onclick="openNav()">
+		<img src="logo-gray.png" id="logo">
+	</div>
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html"><img src="home.png" class="icon">  Početna</a>
+		<a href="arhiva.html"><img src="add-file.png" class="icon">  Dodaj članak</a>
+		<a href="arhiva.html"><img src="archive.png" class="icon">  Arhiva Članaka</a>
+		<a href="#"><img src="logout.png" class="icon">  Odjavi se</a>
+	</div>
+
+	<div class="aktivniStats"><h1>Aktivnih korisnika<br>0</h1></div>
+	<div class="mjesecniStats"><h1>Mjesecni pregledi<br>0</h1></div>
+	<div class="totalniStats"><h1>Ukupno pregleda<br>0</h1></div>
+</body>
+</html>
