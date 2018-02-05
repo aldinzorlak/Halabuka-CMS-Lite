@@ -6,10 +6,10 @@ form {
 	position: fixed;
 	background: #f0f0f0;
 	text-align: center;
-	width: 400px;
-	height: 300px;
-	top:20%;
-	left: 30%;
+	width: 50%;
+	height: 50%;
+	top:25%;
+	left: 25%;
 	border-radius: 6px;
 }
 
@@ -52,13 +52,12 @@ input[type=password]:focus, input[type=text]:focus {
 }
 
 .btn {
-	width: 100px;
-	height: 50px;
+	width: 40%;
+	height: 60px;
 	color: white;
 	text-align: center;
 	margin-top: 30px;
 	border-style: none;
-	border-radius: px;
 	background:	#653C65;
 }
 
@@ -67,7 +66,3 @@ input[type=password]:focus, input[type=text]:focus {
 	cursor: pointer;
 }
 
-small {
-	color: white;
-	text-align: center;
-}
