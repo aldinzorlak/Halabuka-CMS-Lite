@@ -24,7 +24,6 @@
 		<img src="assets/img/gear-icon.png" id="gear-icon" onclick="openNav()">
 		<img src="assets/img/logo-gray.png" id="logo">
 	</div>
-
 	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="index.html"><img src="assets/img/home.png" class="icon">  Početna</a>
@@ -32,10 +31,13 @@
 		<a href="arhiva.html"><img src="assets/img/archive.png" class="icon">  Arhiva Članaka</a>
 		<a href="#"><img src="assets/img/logout.png" class="icon">  Odjavi se</a>
 	</div>
-	<dir class="container">
-		<div class="aktivniStats"><h1>Aktivnih korisnika<br>0</h1></div>
-		<div class="mjesecniStats"><h1>Mjesecni pregledi<br>0</h1></div>
-		<div class="totalniStats"><h1>Ukupno pregleda      <br>0</h1></div>
-	</dir>
+
+
+	<form class="all-form">
+		<input type="text" name="title" placeholder="Unesite naslov članka">
+		<input type="text" name="summary" placeholder="Unesite sažetak članka">
+		<input type="text" name="content" id="tekst">
+	</form>
+
 </body>
 </html>

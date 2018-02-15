@@ -66,30 +66,23 @@ body {
 }
 
 .mjesecniStats, .aktivniStats, .totalniStats {
-
-	width: 300px;
-	height: 150px;
-	margin-left: 20px;
-	background-color: red;
+	width: 30%;
+	height: 100%;
 	display: inline-block;
 }
 
 .aktivniStats {
-	margin-left: 40px;
-	margin-top: 100px;
 	background-color: #73cf61;
+	margin-right: 20px;
 }
 
 .mjesecniStats {
-	left: 470px;
 	background-color: #6186cf;
-	display: inline-block;
+	margin-right:20px;
 }
 
 .totalniStats {
-	left: 470px;
 	background-color: #cfb361;
-	display: inline-block;
 }
 
 h1 {
@@ -98,3 +91,42 @@ h1 {
 	font-family: 'Merriweather', serif;
 
 }
+
+.container {
+	width: 100%;
+	height: 250px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center; 
+	display: inline-block;
+}
+
+
+/*
+*************************************
+           Dodaj clanak css
+*************************************
+*/
+
+.all-form {
+	float: right;
+	margin-right: 250px;
+	margin-top: 40px;
+}
+
+input[type=text] {
+	width: 90%;
+    padding: 12px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#tekst {
+	height: 400px;
+}
+
